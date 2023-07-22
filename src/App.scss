@@ -1,0 +1,24 @@
+@import "./styles/footer.scss";
+@import "./styles/header.scss";
+@import "./styles/main-page.scss";
+@import "./styles/sidebar.scss";
+
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+
+  .left-side {
+    width: 15%;
+    background-color: cornflowerblue;
+  }
+
+  .right-side {
+    width: 85%;
+  }
+}

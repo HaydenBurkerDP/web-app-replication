@@ -1,0 +1,32 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header,
+  .sub-header {
+    margin: 5px 0px;
+    padding: 0.3em;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 16vw;
+    margin: 30px 0 15px 0;
+    background-color: white;
+  }
+
+  .header {
+    width: 60%;
+    background-color: white;
+  }
+
+  .sub-header {
+    width: 60%;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+}

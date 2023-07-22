@@ -1,0 +1,29 @@
+.main-page-container {
+  height: fit-content;
+  width: 95%;
+  padding-left: 2.5%;
+
+  .main-content,
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 22vh;
+    margin: 5px;
+  }
+
+  .middle-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bottom-content {
+    button {
+      margin-top: 6vh;
+      padding: 0.5em 12%;
+      border-radius: 1em;
+    }
+  }
+}
